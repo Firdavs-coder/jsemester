@@ -1,5 +1,112 @@
-1;The Hobbit;J.R.R. Tolkien;4500;false
-2;1984;George Orwell;3800;true
-3;Clean Code;Robert C. Martin;6200;false
-4;The Great Gatsby;F. Scott Fitzgerald;2900;false
-5;Dune;Frank Herbert;5100;true
+The Hobbit;J.R.R. Tolkien;4500;false
+1984;George Orwell;3800;true
+Clean Code;Robert C. Martin;6200;false
+The Great Gatsby;F. Scott Fitzgerald;2900;false
+Dune;Frank Herbert;5100;true
+To Kill a Mockingbird;Harper Lee;3400;false
+Brave New World;Aldous Huxley;3600;false
+The Pragmatic Programmer;Andrew Hunt;6800;true
+Sapiens;Yuval Noah Harari;5900;false
+Harry Potter and the Philosopher's Stone;J.K. Rowling;4700;true
+The Catcher in the Rye;J.D. Salinger;3300;false
+Atomic Habits;James Clear;5400;false
+The Alchemist;Paulo Coelho;3200;false
+The Lord of the Rings;J.R.R. Tolkien;7900;true
+Fahrenheit 451;Ray Bradbury;3500;false
+Moby-Dick;Herman Melville;4100;false
+War and Peace;Leo Tolstoy;8800;true
+Crime and Punishment;Fyodor Dostoevsky;5200;false
+The Brothers Karamazov;Fyodor Dostoevsky;6100;false
+The Odyssey;Homer;4400;true
+The Iliad;Homer;4300;false
+Meditations;Marcus Aurelius;3000;false
+Thinking, Fast and Slow;Daniel Kahneman;6500;true
+Deep Work;Cal Newport;5600;false
+The Lean Startup;Eric Ries;5800;false
+Refactoring;Martin Fowler;7200;true
+Design Patterns;Erich Gamma;7600;false
+Effective Java;Joshua Bloch;7000;false
+Head First Java;Kathy Sierra;6400;true
+Java Concurrency in Practice;Brian Goetz;7500;false
+Domain-Driven Design;Eric Evans;8100;false
+Introduction to Algorithms;Thomas H. Cormen;9800;true
+Code Complete;Steve McConnell;7700;false
+The Mythical Man-Month;Frederick P. Brooks Jr.;5000;false
+The Phoenix Project;Gene Kim;6200;true
+The Unicorn Project;Gene Kim;6300;false
+The Art of Computer Programming;Donald E. Knuth;12000;false
+Structure and Interpretation of Computer Programs;Harold Abelson;8400;true
+Clean Architecture;Robert C. Martin;6900;false
+Working Effectively with Legacy Code;Michael Feathers;7300;false
+Algorithms to Live By;Brian Christian;5700;true
+Grokking Algorithms;Aditya Bhargava;5200;false
+The Name of the Wind;Patrick Rothfuss;4800;false
+The Wise Man's Fear;Patrick Rothfuss;5100;true
+Mistborn;Brandon Sanderson;4500;false
+The Final Empire;Brandon Sanderson;4600;false
+Words of Radiance;Brandon Sanderson;5900;true
+The Way of Kings;Brandon Sanderson;6000;false
+A Game of Thrones;George R.R. Martin;5500;false
+A Clash of Kings;George R.R. Martin;5600;true
+The Martian;Andy Weir;4700;false
+Project Hail Mary;Andy Weir;5300;false
+Ready Player One;Ernest Cline;4200;true
+Ender's Game;Orson Scott Card;3900;false
+Neuromancer;William Gibson;4100;false
+Snow Crash;Neal Stephenson;4300;true
+The Left Hand of Darkness;Ursula K. Le Guin;4000;false
+Foundation;Isaac Asimov;3800;false
+I, Robot;Isaac Asimov;3600;true
+Do Androids Dream of Electric Sheep?;Philip K. Dick;3900;false
+The Road;Cormac McCarthy;3700;false
+The Handmaid's Tale;Margaret Atwood;4100;true
+Beloved;Toni Morrison;4200;false
+Pride and Prejudice;Jane Austen;3400;false
+Jane Eyre;Charlotte Bronte;3500;true
+Wuthering Heights;Emily Bronte;3300;false
+Great Expectations;Charles Dickens;3600;false
+David Copperfield;Charles Dickens;3900;true
+The Picture of Dorian Gray;Oscar Wilde;3200;false
+Dracula;Bram Stoker;3500;false
+Frankenstein;Mary Shelley;3100;true
+The Count of Monte Cristo;Alexandre Dumas;5400;false
+Les Miserables;Victor Hugo;6200;false
+Don Quixote;Miguel de Cervantes;5800;true
+The Stranger;Albert Camus;3400;false
+The Plague;Albert Camus;3600;false
+Nausea;Jean-Paul Sartre;3500;true
+One Hundred Years of Solitude;Gabriel Garcia Marquez;5000;false
+Love in the Time of Cholera;Gabriel Garcia Marquez;4700;false
+The Trial;Franz Kafka;3900;true
+The Castle;Franz Kafka;4000;false
+Invisible Man;Ralph Ellison;4300;false
+Lolita;Vladimir Nabokov;4100;true
+Slaughterhouse-Five;Kurt Vonnegut;3800;false
+Cat's Cradle;Kurt Vonnegut;3700;false
+Catch-22;Joseph Heller;4200;true
+The Sun Also Rises;Ernest Hemingway;3600;false
+For Whom the Bell Tolls;Ernest Hemingway;4400;false
+The Old Man and the Sea;Ernest Hemingway;3000;true
+Of Mice and Men;John Steinbeck;2900;false
+East of Eden;John Steinbeck;4500;false
+The Grapes of Wrath;John Steinbeck;4700;true
+A Tale of Two Cities;Charles Dickens;3400;false
+Oliver Twist;Charles Dickens;3300;false
+The Shining;Stephen King;4600;true
+It;Stephen King;5200;false
+Pet Sematary;Stephen King;4400;false
+The Stand;Stephen King;5600;true
+Misery;Stephen King;4100;false
+The Girl with the Dragon Tattoo;Stieg Larsson;4800;false
+Gone Girl;Gillian Flynn;4300;true
+The Da Vinci Code;Dan Brown;4200;false
+Angels and Demons;Dan Brown;4100;false
+The Silent Patient;Alex Michaelides;4500;true
+Big Little Lies;Liane Moriarty;4000;false
+The Kite Runner;Khaled Hosseini;3900;false
+A Thousand Splendid Suns;Khaled Hosseini;4100;true
+Life of Pi;Yann Martel;3700;false
+The Book Thief;Markus Zusak;4300;false
+The Fault in Our Stars;John Green;3600;true
+Normal People;Sally Rooney;4100;false
+Circe;Madeline Miller;4600;false

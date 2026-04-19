@@ -56,6 +56,16 @@ public class Library {
         return getBookById(id) != null;
     }
 
+    public int getNextBookId() {
+        int maxId = 0;
+        for (Book book : books) {
+            if (book.getId() > maxId) {
+                maxId = book.getId();
+            }
+        }
+        return maxId + 1;
+    }
+
     public ArrayList<Book> search(String query) {
         ArrayList<Book> results = new ArrayList<>();
         String q = query.toLowerCase();

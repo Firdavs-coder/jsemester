@@ -1,7 +1,6 @@
 import java.awt.*;
 import javax.swing.*;
 public class AddBookDialog extends JDialog {
-    private JTextField idField;
     private JTextField titleField;
     private JTextField authorField;
     private JTextField priceField;
@@ -18,12 +17,8 @@ public class AddBookDialog extends JDialog {
     private void buildUI() {
         setLayout(new BorderLayout(10, 10));
 
-        JPanel form = new JPanel(new GridLayout(4, 2, 8, 8));
+        JPanel form = new JPanel(new GridLayout(3, 2, 8, 8));
         form.setBorder(BorderFactory.createEmptyBorder(16, 16, 8, 16));
-
-        form.add(new JLabel("ID:"));
-        idField = new JTextField();
-        form.add(idField);
 
         form.add(new JLabel("Title:"));
         titleField = new JTextField();
@@ -53,21 +48,13 @@ public class AddBookDialog extends JDialog {
     }
 
     private void onAdd() {
-        String idText    = idField.getText().trim();
         String title     = titleField.getText().trim();
         String author    = authorField.getText().trim();
         String priceText = priceField.getText().trim();
 
-        if (idText.isEmpty() || title.isEmpty() || author.isEmpty() || priceText.isEmpty()) {
+        if (title.isEmpty() || author.isEmpty() || priceText.isEmpty()) {
             JOptionPane.showMessageDialog(this,
                 "All fields are required.", "Validation Error", JOptionPane.WARNING_MESSAGE);
-            return;
-        }
-        try {
-            Integer.parseInt(idText);
-        } catch (NumberFormatException e) {
-            JOptionPane.showMessageDialog(this,
-                "ID must be a whole number.", "Validation Error", JOptionPane.WARNING_MESSAGE);
             return;
         }
         try {
@@ -84,7 +71,6 @@ public class AddBookDialog extends JDialog {
 
     public boolean isConfirmed() { return confirmed; }
 
-    public int getBookId()       { return Integer.parseInt(idField.getText().trim()); }
     public String getBookTitle() { return titleField.getText().trim(); }
     public String getAuthor()    { return authorField.getText().trim(); }
     public int getPrice()        { return Integer.parseInt(priceField.getText().trim()); }

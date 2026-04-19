@@ -179,15 +179,11 @@ public class LibraryFrame extends JFrame {
         dialog.setVisible(true);
         if (!dialog.isConfirmed()) return;
 
-        int id = dialog.getBookId();
-        if (library.idExists(id)) {
-            showError("A book with ID " + id + " already exists.");
-            return;
-        }
+        int id = library.getNextBookId();
         Book book = new Book(id, dialog.getBookTitle(), dialog.getAuthor(), dialog.getPrice(), false);
         library.addBook(book);
         refreshView();
-        setStatus("Book \"" + book.getTitle() + "\" added.");
+        setStatus("Book \"" + book.getTitle() + "\" added with ID " + id + ".");
     }
 
     private void onDeleteBook() {
