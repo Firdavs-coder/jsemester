@@ -1,5 +1,5 @@
-import javax.swing.*;
 import java.io.IOException;
+import javax.swing.*;
 
 public class LibraryApp {
     private static final String DATA_FILE = "books.txt";

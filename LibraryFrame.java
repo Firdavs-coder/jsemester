@@ -1,10 +1,10 @@
-import javax.swing.*;
-import javax.swing.table.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Comparator;
+import javax.swing.*;
+import javax.swing.table.*;
 
 public class LibraryFrame extends JFrame {
 

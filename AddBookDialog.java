@@ -1,5 +1,5 @@
-import javax.swing.*;
 import java.awt.*;
+import javax.swing.*;
 public class AddBookDialog extends JDialog {
     private JTextField idField;
     private JTextField titleField;
