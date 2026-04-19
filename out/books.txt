@@ -1,0 +1,5 @@
+1;The Hobbit;J.R.R. Tolkien;4500;false
+2;1984;George Orwell;3800;true
+3;Clean Code;Robert C. Martin;6200;false
+4;The Great Gatsby;F. Scott Fitzgerald;2900;false
+5;Dune;Frank Herbert;5100;true
