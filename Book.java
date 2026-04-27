@@ -1,6 +1,6 @@
 public class Book extends Item implements Borrowable {
-    private String author;
-    private int price;
+    final private String author;
+    final private int price;
     private boolean borrowed;
 
     public Book(int id, String title, String author, int price, boolean borrowed) {
